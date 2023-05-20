@@ -2,7 +2,7 @@ package ru.netology.stats;
 
 public class StatsService {
 
-        public int sumAllSales(long[] sales) {   //сумма всех продаж
+    public int sumAllSales(long[] sales) {   //сумма всех продаж
         int sum = 0;
 
         for (int sale = 0; sale < sales.length; sale++) {
